@@ -96,6 +96,47 @@ ul {
 }
 /* FINE HEADER */
 
+/* INIZIO PARTE CENTRALE */
+main > .odd {
+    background-color: white;
+}
+
+main > .even {
+    background-color: lightgray;
+}
+
+.main-section-odd {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main-section-even {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main-content {
+    background-color: #1e90ff;
+    width: 60%;
+    height: 600px;
+}
+
+.small {
+    background-color: #ffc0ca;
+    width: 40%;
+}
+
+.square-section {
+    background-color: #218b21;
+    width: 100%;
+    height: 1200px;
+}
+
+/* FINE PARTE CENTRALE */
+
 /* INIZIO FOOTER */
 .main-footer {
     background-color: #23272a;
